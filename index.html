@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortes Sanctorum: the lots of the Saints</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Add an H1 title at the top -->
+    <h1>Sortes Sanctorum: the lots of the Saints</h1>
+
+    <!-- Add an image underneath the title and center it -->
+    <div class="centered-image">
+        <img src="_3a0379e5-284b-451c-8928-62699b119cb0.jpeg" alt="A monk playing with dice">
+    </div>
+<!-- Add two short introductory paragraphs -->
+<div class="intro-text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod turpis id turpis hendrerit, vitae sodales libero convallis.</p>
+    <p>Integer ac tincidunt ex. Vestibulum gravida fermentum neque, eu maximus ex convallis nec.</p>
+</div>
+    <div class="dice-container">
+        <img src="dice1.png" alt="Die 1" id="die1">
+        <img src="dice2.png" alt="Die 2" id="die2">
+        <img src="dice3.png" alt="Die 3" id="die3">
+        <br />
+        <button onclick="rollDice()">Roll Dice</button>
+        <div id="result">Result: </div>
+
+        <!-- Move this div inside the dice-container div -->
+        <div id="selectedText">Selected Text: </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
