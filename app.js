@@ -28,14 +28,14 @@ function displaySelectedText(die1, die2, die3) {
 
     // Map each possible combination to a short text
     const combinations = {
-        "666": "Text 1",
-        "665": "Text 2",
-        "664": "Text 3",
-        "663": "Text 4",
-        "662": "Text 5",
-        "661": "Text 6",
-        "655": "Text 7",
-        "654": "Text 8",
+        "666": "When the sun goes down the stars arise and then the bright light of the sun returns again, so also your mind, which seems clouded by doubt, will in a short time reach clarity. With God’s help you will obtain that which you desire and you will give him praise.",
+        "665": "Concerning the matter you have asked about, let your mind focus on what you hope for, so that you may attain what you desire.",
+        "664": "God will help you in what you desire and in the matter you are asking about. Ask God and what you desire will quickly come to you.",
+        "663": "Stretch out your right hand and you will have peace. Be of good hope and give to the poor.",
+        "662": "You seek to send light into the darkness, where there is no straight path. Are you wanting to lose your life?  I advise you not to concern yourself about this matter.",
+        "661": "What you ask for now will come with great joy. Be safe, ask God, and do not be afraid.",
+        "655": "It is a sure way that you are looking for. Do not be afraid. God will help you, and you will reach what you desire.",
+        "654": "What seems to be great to you is already passing away and however much you will it,  what you are planning will not be in your power.",
         "653": "Text 9",
         "652": "Text 10",
         "651": "Text 11",
