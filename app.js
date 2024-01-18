@@ -1,3 +1,6 @@
+// Display initial text when the page loads
+document.getElementById('selectedText').textContent = 'Please think of the question you would like to consult the oracle about and then press the button to roll the dice';
+
 function rollDice() {
     // Simulate the roll of three six-sided dice
     const die1Value = Math.floor(Math.random() * 6) + 1;
@@ -17,11 +20,9 @@ function rollDice() {
     displaySelectedText(die1Value, die2Value, die3Value);
 }
 
-
 function displaySelectedText(die1, die2, die3) {
     // Sort the dice values in descending order
     const sortedValues = [die1, die2, die3].sort((a, b) => parseInt(b, 10) - parseInt(a, 10));
-
 
     // Create the combination key
     const combinationKey = sortedValues.join('');
