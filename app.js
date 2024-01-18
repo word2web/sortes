@@ -88,5 +88,5 @@ function displaySelectedText(die1, die2, die3) {
 
     // Display the selected text
     const selectedTextElement = document.getElementById('selectedText');
-    selectedTextElement.textContent = `Selected Text: ${combinations[combinationKey] || 'Unknown'}`;
+    selectedTextElement.textContent = `The oracle says: ${combinations[combinationKey] || 'Unknown'}`;
 }
