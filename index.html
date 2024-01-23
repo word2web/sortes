@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sortes Sanctorum: the lots of the Saints</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!-- Add an H1 title at the top -->
     <h1>Sortes Sanctorum: the lots of the Saints</h1>
 
     <!-- Add an image underneath the title and center it -->
     <div class="centered-image">
-        <img src="_3a0379e5-284b-451c-8928-62699b119cb0.jpeg" alt="A monk playing with dice">
+      <img
+        src="_3a0379e5-284b-451c-8928-62699b119cb0.jpeg"
+        alt="A monk playing with dice"
+      />
     </div>
 
     <!-- Add introductory text -->
     <div class="intro-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod turpis id turpis hendrerit, vitae sodales libero convallis.</p>
-        <p>Integer ac tincidunt ex. Vestibulum gravida fermentum neque, eu maximus ex convallis nec.</p>
+      <p>
+        The Sortes Sanctorum (the lots of the Saints) sometimes called the
+        Sortes Apostolorum (the lots of the apostles) was a medieval divination
+        system with origins in the South of France. The text was originally
+        written in Latin. The Church frowned on divination and fortune telling
+        and the quasi religious flavour of the text, with their frequent
+        exhortations to pray to God, may have been an attempt to make divination
+        a bit more respectable. Before consulting the Sortes a period of prayer,
+        fasting and religious devotion was recommended.
+      </p>
+      <p>
+        Then three dice were rolled and their results arranged in descending
+        order to give one of 56 possible answers e.g. if a four, two and six
+        were rolled then the numbers would be arranged six, four, two. To reveal
+        the Sortes answer the question would then look up the book and find the
+        text for this result.
+      </p>
+      <p>
+        This version of the Sortes was created using ChatGPT to provide the code
+        for the random dice roll, with Bing Image Creator for the picture of the
+        monk with the dice, and with the help of Google Translate to provide
+        English versions of the original Latin text.
+      </p>
+      <p>
+        To consult the oracle, think of a question and press the button.
+        Needless to say, but worth saying nonetheless, this old mediaeval oracle
+        is presented here for education, information and entertainment purposes
+        only and the creator of this app accepts no liability for life decisions
+        based on “answers” given by the Sortes Sanctorum! Caveat quaestor.
+      </p>
     </div>
 
-    <!-- Add a space for text results with initial text -->
-    <div id="textResults">Please think of the question you would like to consult the oracle about and then press the button to roll the dice</div>
-    
     <div class="dice-container">
-        <img src="dice1.png" alt="Die 1" id="die1">
-        <img src="dice2.png" alt="Die 2" id="die2">
-        <img src="dice3.png" alt="Die 3" id="die3">
-        <br />
-        <button onclick="rollDice()">Roll Dice</button>
-        <div id="result">Result: </div>
+      <img src="dice1.png" alt="Die 1" id="die1" />
+      <img src="dice2.png" alt="Die 2" id="die2" />
+      <img src="dice3.png" alt="Die 3" id="die3" />
+      <br />
+      <button onclick="rollDice()">Roll Dice</button>
+      <div id="result">Result:</div>
 
-        <!-- Move this div inside the dice-container div -->
-        <div id="selectedText">Selected Text: </div>
+      <!-- Move this div inside the dice-container div -->
+      <div id="selectedText"></div>
     </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
