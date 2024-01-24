@@ -91,8 +91,7 @@ function displaySelectedText(die1, die2, die3) {
         "222": "You are looking to send your money to gain, see that it does not come to your loss: this is a dangerous place, use advice, be careful to tire the wise.",
         "221": "You seek only what is not in your power, but endure for a short time, and you will find your condition better.",
         "211": "Be faithful forever, and whatever you ask, God will grant you everything, and you will be happy forever if you obey God's commandments",
-        "111": "Ask God and you will get what you want. Come and thank him.
-        ",
+        "111": "Ask God and you will get what you want. Come and thank him.",
     };
 
     // Display the selected text
