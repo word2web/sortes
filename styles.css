@@ -29,13 +29,14 @@ button {
     margin-bottom: 20px; /* Add margin to the bottom of the button */
 }
 
-.result-container {
-    padding: 10px; /* Add padding to the container */
-    background-color: #f2f2f2; /* Light grey background color */
-    width: 60%; /* Set the width to 60% */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    margin: 0 auto; /* Center the container horizontally */
-    text-align: center; /* Center the text within the container */
+/* Apply Garamond to the result container */
+#result-container {
+    font-family: 'EB Garamond', serif;
+    background-color: lightgrey;
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
 }
 
 #result, #selectedText {
