@@ -34,7 +34,6 @@ function displaySelectedText(die1, die2, die3) {
   // Create the combination key
   const combinationKey = sortedValues.join("");
 
-
   // Map each possible combination to a short text
   const combinations = {
     666: "When the sun goes down the stars arise and then the bright light of the sun returns again, so also your mind, which seems clouded by doubt, will in a short time reach clarity. With God’s help you will obtain that which you desire and you will give him praise.",
