@@ -90,10 +90,10 @@ function displaySelectedText(die1, die2, die3) {
     322: "What you seem to be worried about, and you are trying to navigate the waves of the sea, see and endure, in a short time you will find and reach what you desire.",
     321: "Great joy will come to you when you ask for it, don't think about it, be safe, ask God and you will find grace.",
     311: "The entrance is already prepared for you, and you can enter with an open door to what you desire, where to encourage or hope for you, pray to God to be your helper.",
-    222: "You are looking to send your money to gain, see that it does not come to your loss: this is a dangerous place, use advice, be careful to tire the wise.",
-    221: "You seek only what is not in your power, but endure for a short time, and you will find your condition better.",
-    211: "Be faithful forever, and whatever you ask, God will grant you everything, and you will be happy forever if you obey God's commandments",
-    111: "Ask God and you will get what you want. Come and thank him.",
+    222: "The way is already prepared for you and the door is open to you. You can access where you place your hopes. Pray God to be your helper.",
+    221: "You are wanting to make your money grow. Be careful that you do not suffer a loss. This is a dangerous place. Take the advice of the wise, what is the use of exhausting yourself in this way?",
+    211: "You seek to obtain what is not in your power. Be patient for a short time and you will find your condition better.",
+    111: "Be constantly faithful and whatever you ask, God will grant you. You will be happy forever if you obey God's commandments.",
   };
 
   // Display the selected text
