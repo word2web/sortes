@@ -18,21 +18,19 @@ function rollDice() {
 
   // Display the result
   const resultElement = document.getElementById("result");
-  resultElement.textContent = `Result: ${die1Value}, ${die2Value}, ${die3Value}`;
+  const sortedValues = [die1Value, die2Value, die3Value].sort((a, b) => b - a);
+  resultElement.textContent = `Result: ${sortedValues[0]}, ${sortedValues[1]}, ${sortedValues[2]}`;
 
   // Show the "Result:" text
   resultElement.style.display = "block";
 
   // Call displaySelectedText
-  displaySelectedText(die1Value, die2Value, die3Value);
+  displaySelectedText(sortedValues[0], sortedValues[1], sortedValues[2]);
 }
 
 function displaySelectedText(die1, die2, die3) {
-  // Sort the dice values in descending order
-  const sortedValues = [die1, die2, die3].sort((a, b) => b - a);
-
   // Create the combination key
-  const combinationKey = sortedValues.join("");
+  const combinationKey = [die1, die2, die3].join("");
 
   // Map each possible combination to a short text
   const combinations = {
