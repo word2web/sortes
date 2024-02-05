@@ -86,7 +86,7 @@ function displaySelectedText(die1, die2, die3) {
     332: "You have honey and you want vinegar. See the good that is gentler: for what you ask is not given to you.",
     331: "Where you hope the fish are hiding and you will be happy to catch them. thus your mind seems to be doubtful, and yet you will easily receive the gift of God, if you ask God.",
     322: "What you seem to be worried about, and you are trying to navigate the waves of the sea, see and endure, in a short time you will find and reach what you desire.",
-    321: "Great joy will come to you when you ask for it, don't think about it, be safe, ask God and you will find grace.",
+    321: "Great joy will come to you. Think no more about the object of your request. Be at peace. Ask God and you will find grace.",
     311: "The entrance is already prepared for you, and you can enter with an open door to what you desire, where to encourage or hope for you, pray to God to be your helper.",
     222: "The way is already prepared for you and the door is open to you. You can access where you place your hopes. Pray God to be your helper.",
     221: "You are wanting to make your money grow. Be careful that you do not suffer a loss. This is a dangerous place. Take the advice of the wise, what is the use of exhausting yourself in this way?",
