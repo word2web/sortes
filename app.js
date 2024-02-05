@@ -29,9 +29,7 @@ function rollDice() {
 
 function displaySelectedText(die1, die2, die3) {
   // Sort the dice values in descending order
-  const sortedValues = [die1, die2, die3].sort(
-    (a, b) => parseInt(b, 10) - parseInt(a, 10)
-  );
+  const sortedValues = [die1, die2, die3].sort((a, b) => b - a);
 
   // Create the combination key
   const combinationKey = sortedValues.join("");
