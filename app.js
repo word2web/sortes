@@ -12,9 +12,9 @@ function rollDice() {
   const die3Value = Math.floor(Math.random() * 6) + 1;
 
   // Update dice images
-  document.getElementById("die1").src = `dice${die1Value}.png`;
-  document.getElementById("die2").src = `dice${die2Value}.png`;
-  document.getElementById("die3").src = `dice${die3Value}.png`;
+  document.getElementById("die1").src = `dice${die1Value}.svg`;
+  document.getElementById("die2").src = `dice${die2Value}.svg`;
+  document.getElementById("die3").src = `dice${die3Value}.svg`;
 
   // Display the result
   const resultElement = document.getElementById("result");
