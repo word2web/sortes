@@ -17,7 +17,7 @@ body {
 }
 
 /* Add styles to invert SVG images in night mode */
-.night-mode .dice-image {
+.night-mode dice-image {
     filter: invert(1);
 }
 
