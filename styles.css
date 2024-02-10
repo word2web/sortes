@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 40px; /* Add margin to create space around the content */
+    padding-top: 40px;
     padding-bottom: 40px; /* Add padding to the bottom */
 }
 
@@ -15,12 +16,10 @@ body {
     padding-bottom: 40px; /* Add padding to the bottom */
 }
 
-/* Apply invert filter to dice images only in dark mode */
-@media (prefers-color-scheme: dark) {
-    img.dice-image {
-        filter: invert(100%);
-    }
-}
+/* Add styles to invert SVG images in night mode */
+.night-mode .dice-image {
+    filter: invert(1);
+  }
 
 img {
     width: 80px;
