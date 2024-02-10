@@ -15,6 +15,13 @@ body {
     padding-bottom: 40px; /* Add padding to the bottom */
 }
 
+/* Apply invert filter to dice images only in dark mode */
+@media (prefers-color-scheme: dark) {
+    img.dice-image {
+        filter: invert(100%);
+    }
+}
+
 img {
     width: 80px;
     height: 80px;
