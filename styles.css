@@ -57,3 +57,10 @@ button {
     display: block;
     margin: 20px auto; /* Adjust margin for spacing */
 }
+ /* Add style for the footer */
+ footer {
+    background-color: lightgrey; /* Set background color */
+    padding: 10px; /* Add padding */
+    margin-top: 20px; /* Add spacing before the footer */
+    text-align: center; /* Center align text */
+  }
