@@ -1,87 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sortes Sanctorum: the lots of the Saints</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" />
-  </head>
-  <body>
-    <!-- Add an H1 title at the top -->
-    <h1>Sortes Sanctorum: the lots of the Saints</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sortes Sanctorum: the lots of the Saints</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" />
+</head>
+<body>
+  <!-- Add an H1 title at the top -->
+  <h1>Sortes Sanctorum: the lots of the Saints</h1>
 
-    <!-- Add an image underneath the title and center it -->
-    <div class="centered-image">
-      <img
-        src="_3a0379e5-284b-451c-8928-62699b119cb0.jpeg"
-        alt="A monk playing with dice"
-      />
-    </div>
+  <!-- Add an image underneath the title and center it -->
+  <div class="centered-image">
+    <img src="_3a0379e5-284b-451c-8928-62699b119cb0.jpeg" alt="A monk playing with dice" />
+  </div>
 
-    <!-- Add introductory text -->
-    <div class="intro-text">
-      <p>
-        The Sortes Sanctorum (the lots of the Saints), sometimes called the
-        Sortes Apostolorum (the lots of the Apostles), was a mediaeval
-        divination system with origins in the South of France.
-      </p>
-      <p>
-        The quasi religious flavour of the text, with its frequent
-        exhortations to pray to God, may have been an attempt to escape the Church's
-        disapproval of divination and fortune telling.
-      </p>
-      <p>
-        To consult the <i>Sortes</i> a period of prayer, fasting and religious
-        devotion beforehand was recommended. Then the questioner rolled three
-        dice and arranged the results in descending order to give one of 56
-        possible answers. For example, if a four, two and six were rolled then
-        the numbers would be arranged <b><i>six, four, two</i></b>. To reveal the reply from
-        the <i>Sortes</i>, the questioner would look up the book and find the text
-        labelled <i>6, 4, 2</i>.
-      </p>
+  <!-- Add introductory text -->
+  <div class="intro-text">
+    <p>
+      The Sortes Sanctorum (the lots of the Saints), sometimes called the
+      Sortes Apostolorum (the lots of the Apostles), was a mediaeval
+      divination system with origins in the South of France.
+    </p>
+    <p>
+      The quasi religious flavour of the text, with its frequent
+      exhortations to pray to God, may have been an attempt to escape the Church's
+      disapproval of divination and fortune telling.
+    </p>
+    <p>
+      To consult the <i>Sortes</i> a period of prayer, fasting and religious
+      devotion beforehand was recommended. Then the questioner rolled three
+      dice and arranged the results in descending order to give one of 56
+      possible answers. For example, if a four, two and six were rolled then
+      the numbers would be arranged <b><i>six, four, two</i></b>. To reveal the reply from
+      the <i>Sortes</i>, the questioner would look up the book and find the text
+      labelled <i>6, 4, 2</i>.
+    </p>
 
-      <p>
-        This version of the <i>Sortes</i> was created using ChatGPT 3.5 to provide the code
-        for the random dice roll. I used Bing Image Creator for the picture of
-        the monk with the dice, and the help of Google Translate to provide
-        English versions of the original Latin text.
-      </p>
-      <p>To consult this oracle, think of a question and press the button.</p>
-      <p>
-        <b>Disclaimer:</b> this old mediaeval oracle is presented here for
-        education, information and entertainment purposes only :-)
-      </p>
-    </div>
+    <p>
+      This version of the <i>Sortes</i> was created using ChatGPT 3.5 to provide the code
+      for the random dice roll. I used Bing Image Creator for the picture of
+      the monk with the dice, and the help of Google Translate to provide
+      English versions of the original Latin text.
+    </p>
+    <p>To consult this oracle, think of a question and press the button.</p>
+    <p>
+      <b>Disclaimer:</b> this old mediaeval oracle is presented here for
+      education, information and entertainment purposes only :-)
+    </p>
+  </div>
 
-    <div class="dice-container">
-      <img src="dice1.svg" alt="Die 1" id="die1" class="dice-image"/>
-      <img src="dice2.svg" alt="Die 2" id="die2" class="dice-image"/>
-      <img src="dice3.svg" alt="Die 3" id="die3" class="dice-image"/>
-      <br />
-      <button onclick="rollDice()">Roll Dice</button>
-      <!-- Move this div inside the dice-container div -->
-      <div id="result-container">
-        <div id="result">Result: </div>
-        <div id="selectedText"></div>
+  <div class="dice-container">
+    <img src="dice1.svg" alt="Die 1" id="die1" class="dice-image"/>
+    <img src="dice2.svg" alt="Die 2" id="die2" class="dice-image"/>
+    <img src="dice3.svg" alt="Die 3" id="die3" class="dice-image"/>
+    <br />
+    <button onclick="rollDice()">Roll Dice</button>
+    <!-- Move this div inside the dice-container div -->
+    <div id="result-container">
+      <div id="result">Result: </div>
+      <div id="selectedText"></div>
     </div>
-    </div>
-    <div class="sources">
-      <h2>Sources</h2>
-      <p>The idea for creating this app came from <a href="https://blogs.getty.edu/iris/we-tried-medieval-divination-and-it-worked/">this article</a> about staff at the Getty Museum using the Sortes to answer some questions.</p>
-      <p>For the text I consulted two sources. The first is Rendel, Harris J. The annotators of the Codex Bezae (with some notes on Sortes sanctorum), 1901 available at <a href="https://archive.org/details/annotatorsofcode0000harr/">https://archive.org/details/annotatorsofcode0000harr/</a>.</p>
-      <p>I also consulted this more up to date edition of the Sortes Cartelle, E Montero, Les Sortes sanctorum. Étude, édition critique et traduction, 2013.</p>
-    </div>
-    <script src="app.js"></script>
-  </body>
-  <script>
-    // Check if night mode is enabled
-    const isNightMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  </div>
+  
+  <!-- Sources Section -->
+  <div class="sources">
+    <h2>Sources</h2>
+    <p>The idea for creating this app came from the following article: <a href="https://blogs.getty.edu/iris/we-tried-medieval-divination-and-it-worked/">We Tried Medieval Divination, and It Worked!</a> by Getty Iris Staff.</p>
+    <p>For the text, the following sources were consulted:</p>
+    <ul>
+      <li>Rendel, Harris J. <cite>The Annotators of the Codex Bezae</cite> (with some notes on Sortes sanctorum), 1901. Available at: <a href="https://archive.org/details/annotatorsofcode0000harr/">https://archive.org/details/annotatorsofcode0000harr/</a>.</li>
+      <li>Montero, E. <cite>Les Sortes Sanctorum: Étude, édition critique et traduction</cite>, 2013.</li>
+    </ul>
+  </div>
 
-    // Add a class to the body if night mode is detected
-    if (isNightMode) {
-        document.body.classList.add('night-mode');
-    }
+  <script src="app.js"></script>
+</body>
+<script>
+  // Check if night mode is enabled
+  const isNightMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  // Add a class to the body if night mode is detected
+  if (isNightMode) {
+      document.body.classList.add('night-mode');
+  }
 </script>
   <footer>
     <!-- Your other footer content here -->
