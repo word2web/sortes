@@ -65,10 +65,29 @@ button {
     text-align: center; /* Center align text */
   }
 
-  .sources {
-    margin-top: 20px; /* Add some top margin */
+/* Styles for Sources Section */
+.sources {
+    font-family: Arial, sans-serif;
+    margin: 20px; /* Add margin for spacing */
+  }
+  
+  .sources h2 {
+    font-size: 24px; /* Adjust heading size */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
   }
   
   .sources p {
-    margin: 10px 0; /* Add margin to each paragraph */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+  }
+  
+  .sources ul {
+    padding-left: 20px; /* Add left padding for list items */
+  }
+  
+  .sources li {
+    margin-bottom: 5px; /* Add bottom margin for list items */
+  }
+  
+  .sources cite {
+    font-style: italic; /* Italicize citation titles */
   }
