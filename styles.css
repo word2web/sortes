@@ -66,10 +66,13 @@ button {
   }
 
 /* Styles for Sources Section */
-.sources {
+..sources {
     font-family: Arial, sans-serif;
-    margin: 20px; /* Add margin for spacing */
-  }
+    margin: 20px;
+    width: 90%; /* Limit the width to 90% of the viewport */
+    max-width: 600px; /* Set a maximum width to prevent stretching on larger screens */
+    margin: 20px auto; /* Center the sources section horizontally */
+}
   
   .sources h2 {
     font-size: 24px; /* Adjust heading size */
