@@ -64,3 +64,11 @@ button {
     margin-top: 20px; /* Add spacing before the footer */
     text-align: center; /* Center align text */
   }
+
+  .sources {
+    margin-top: 20px; /* Add some top margin */
+  }
+  
+  .sources p {
+    margin: 10px 0; /* Add margin to each paragraph */
+  }
