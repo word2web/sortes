@@ -94,3 +94,7 @@ button {
   .sources cite {
     font-style: italic; /* Italicize citation titles */
   }
+
+  .sources a {
+    word-wrap: break-word; /* Allow long URLs to wrap */
+  }
