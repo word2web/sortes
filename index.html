@@ -83,7 +83,7 @@
         This work is licensed under a
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
     </div>
-    <p>V 1.8</p>
+    <p>V 1.9</p>
   </footer>
   <script src="app.js"></script>
 </body>
@@ -91,9 +91,7 @@
   // Check if night mode is enabled
   const isNightMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-  // Add a class to the body if night mode is detected
-  if (isNightMode) {
-      document.body.classList.add('night-mode');
-  }
+  // Add or remove the 'night-mode' class based on the result
+  document.body.classList.toggle('night-mode', isNightMode);
 </script>
 </html>
