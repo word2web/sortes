@@ -1,100 +1,107 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    margin: 40px; /* Add margin to create space around the content */
-    padding-top: 40px;
-    padding-bottom: 40px; /* Add padding to the bottom */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 40px; /* Add margin to create space around the content */
+  padding-top: 40px;
+  padding-bottom: 40px; /* Add padding to the bottom */
+  background-color: white; /* Default background color */
 }
 
+/* Add dark mode */
+.night-mode body {
+  background-color: #333; /* Dark background color */
+}
+
+/* Rest of your CSS styles */
 .dice-container {
-    text-align: center;
-    margin: 20px 0; /* Add top and bottom margin for separation */
-    padding-top: 40px; /* Add padding to the bottom */
-    padding-bottom: 40px; /* Add padding to the bottom */
+  text-align: center;
+  margin: 20px 0; /* Add top and bottom margin for separation */
+  padding-top: 40px; /* Add padding to the bottom */
+  padding-bottom: 40px; /* Add padding to the bottom */
 }
 
 /* Add styles to invert SVG images in night mode */
 .night-mode .dice-image {
-    filter: invert(1);
+  filter: invert(1);
 }
 
 img {
-    width: 80px;
-    height: 80px;
-    margin: 0 10px;
+  width: 80px;
+  height: 80px;
+  margin: 0 10px;
 }
 
 button {
-    font-size: 16px;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 20px; /* Add margin to the bottom of the button */
-    margin-bottom: 20px; /* Add margin to the bottom of the button */
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px; /* Add margin to the bottom of the button */
+  margin-bottom: 20px; /* Add margin to the bottom of the button */
 }
 
 /* Apply Garamond to the result container */
 #result-container {
-    font-family: 'EB Garamond', serif;
-    background-color: lightgrey;
-    width: 60%;
-    margin: 20px auto;
-    padding: 10px;
-    text-align: center;
+  font-family: 'EB Garamond', serif;
+  background-color: lightgrey;
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
 }
 
 #result, #selectedText {
-    font-size: 24px;
-    margin: 10px 0; /* Add some space around each element */
+  font-size: 24px;
+  margin: 10px 0; /* Add some space around each element */
 }
 
 .centered-image img {
-    width: 100%; /* Allow the image to take 100% width */
-    max-width: 500px; /* Set a max-width to prevent the image from becoming too large */
-    height: auto; /* Maintain the image's aspect ratio */
-    display: block;
-    margin: 20px auto; /* Adjust margin for spacing */
+  width: 100%; /* Allow the image to take 100% width */
+  max-width: 500px; /* Set a max-width to prevent the image from becoming too large */
+  height: auto; /* Maintain the image's aspect ratio */
+  display: block;
+  margin: 20px auto; /* Adjust margin for spacing */
 }
- /* Add style for the footer */
- footer {
-    background-color: lightgrey; /* Set background color */
-    padding: 10px; /* Add padding */
-    margin-top: 20px; /* Add spacing before the footer */
-    text-align: center; /* Center align text */
-  }
+/* Add style for the footer */
+footer {
+  background-color: lightgrey; /* Set background color */
+  padding: 10px; /* Add padding */
+  margin-top: 20px; /* Add spacing before the footer */
+  text-align: center; /* Center align text */
+}
 
 /* Styles for Sources Section */
 .sources {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    width: 90%; /* Limit the width to 90% of the viewport */
-    max-width: 600px; /* Set a maximum width to prevent stretching on larger screens */
-    margin: 20px auto; /* Center the sources section horizontally */
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  width: 90%; /* Limit the width to 90% of the viewport */
+  max-width: 600px; /* Set a maximum width to prevent stretching on larger screens */
+  margin: 20px auto; /* Center the sources section horizontally */
 }
-  
-  .sources h2 {
-    font-size: 24px; /* Adjust heading size */
-    margin-bottom: 10px; /* Add bottom margin for spacing */
-  }
-  
-  .sources p {
-    margin-bottom: 10px; /* Add bottom margin for spacing */
-  }
-  
-  .sources ul {
-    padding-left: 20px; /* Add left padding for list items */
-  }
-  
-  .sources li {
-    margin-bottom: 5px; /* Add bottom margin for list items */
-  }
-  
-  .sources cite {
-    font-style: italic; /* Italicize citation titles */
-  }
 
-  .sources a {
-    word-wrap: break-word; /* Allow long URLs to wrap */
-  }
+.sources h2 {
+  font-size: 24px; /* Adjust heading size */
+  margin-bottom: 10px; /* Add bottom margin for spacing */
+}
+
+.sources p {
+  margin-bottom: 10px; /* Add bottom margin for spacing */
+}
+
+.sources ul {
+  padding-left: 20px; /* Add left padding for list items */
+}
+
+.sources li {
+  margin-bottom: 5px; /* Add bottom margin for list items */
+}
+
+.sources cite {
+  font-style: italic; /* Italicize citation titles */
+}
+
+.sources a {
+  word-wrap: break-word; /* Allow long URLs to wrap */
+}
